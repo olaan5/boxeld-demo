@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/sienna"
+    android:layout_height="match_parent">
+    <!--android:background="@drawable/menu_background"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/boxeld_tools_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Boxeld Tools"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/cancel_clear_aib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_clear" />
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/import_audio_acb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/import_audio_files"
+        android:drawablePadding="14dp"
+        android:drawableStart="@drawable/ic_cloud_upload"
+        android:gravity="start|center"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/record_audio_acb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/record_audio_files"
+        android:drawablePadding="14dp"
+        android:drawableStart="@drawable/ic_mic"
+        android:gravity="start|center"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+</LinearLayout>

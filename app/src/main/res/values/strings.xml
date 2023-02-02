@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Boxeld</string>
+
+    <!-- MainActivity Activity Page-->
+    <string name="in_association_with_tv">In association with</string>
+    <string name="parent_company_name">Miniweam Technologies</string>
+
+    <!-- Content Description -->
+    <string name="app_name_logo">Boxeld Logo</string>
+    <string name="app_hint">App Description Image</string>
+    <string name="account_profile_picture_iv">Account profile picture</string>
+
+    <!-- First Activity Page-->
+    <string name="tv_hint1">Stay ahead and discover more content</string>
+    <string name="tv_hint2">Listen to audio content anywhere</string>
+    <string name="tv_hint3">Share your thought</string>
+
+    <string name="sign_up_btn">Register with Email Address</string>
+    <string name="google_btn">Continue with google</string>
+    <string name="login_btn">Already a user? Log in</string>
+
+
+    <!-- Register Activity Page -->
+    <string name="register">Welcome, Register to start your new app journey.</string>
+    <string name="register_hint1_til">email</string>
+    <string name="register_hint2_til">username</string>
+    <string name="register_hint3_til">password</string>
+
+    <string name="register_tv_note">I have read and accept the</string>
+    <string name="tos_tv">Terms of service</string>
+
+    <string name="register_acb">Register</string>
+
+    <!-- Login Activity Page -->
+    <string name="login">Hello there, Welcome Back. Sign in to continue</string>
+    <string name="login_hint1_til">email</string>
+    <string name="login_hint2_til">password</string>
+    <string name="login_acb">Enter</string>
+    <string name="forgot_password_tv">Forgot Password</string>
+    <string name="new_user_tv">New User?</string>
+    <string name="register_tv">Register</string>
+
+    <!-- User Dashboard Activity / UI-->
+    <string name="title_explore">Explore</string>
+    <string name="title_library">Library</string>
+    <string name="title_menu_open">Menu</string>
+
+
+    <!-- Explore Fragment Page -->
+
+    <!-- Library Fragment Page -->
+    <string name="listen_to_later_btn">Listen to later</string>
+    <string name="liked_audios_btn">Liked audios</string>
+    <string name="recent_btn">Recent</string>
+    <string name="episodes_btn">My Audios / Episodes</string>
+    <string name="playlist_btn">Playlist</string>
+
+    <!-- Dashboard Fragment Page -->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="account_info_tv">Account Info</string>
+    <string name="bio_tv">Bio</string>
+    <string name="dashboard_audio_tv">Audio</string>
+    <string name="number_count_tv">0</string>
+    <string name="total_plays_tv">Total plays</string>
+    <string name="subscribers_tv">Subscribers</string>
+    <string name="your_space_tv">Your Space</string>
+    <string name="analytics_tv">Analytics</string>
+    <string name="manage_audios_tv">Manage Audios</string>
+    <string name="boxeld_premium">Boxeld Premium</string>
+    <string name="menu_invite_friends">Invite Friends</string>
+
+    <string name="library_image_btn">Image View List</string>
+
+
+    <!-- Menu Options Icons Description -->
+    <string name="action_search">Search</string>
+    <string name="menu_offline">Offline</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_notifications">Notifications</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Settings Activity Page -->
+    <string name="appearance_btn">Appearance</string>
+    <string name="privacy_policy_btn">Privacy Policy</string>
+    <string name="about_us_btn">About Us</string>
+    <string name="what_new_btn">What\'s New</string>
+    <string name="terms_of_service_btn">Boxeld Terms of Service</string>
+    <string name="logout_btn">Logout</string>
+
+
+    <!-- Forgot Password Activity Page -->
+    <string name="forgot_password_hint_tv">Kindly provide your email registered to send a reset password.</string>
+    <string name="reset_password_btn">Reset Password</string>
+
+
+    <!-- Set New Password Activity Page -->
+    <string name="new_password_tv">New Password</string>
+    <string name="new_password_hint_tv">Your Identity has verified! Set your new password</string>
+    <string name="text_pass_reset">Password reset</string>
+    <string name="text_new_pass">new password</string>
+    <string name="text_confirm_new_pass">Confirm new password</string>
+    <string name="reset_btn">Reset</string>
+
+    <!-- Offline Activity Page -->
+    <string name="offline_big_tv">Get your media offline</string>
+    <string name="offline_medium_tv">Files you make available offline will show up here.</string>
+
+    <!-- Notifications Activity Page -->
+    <string name="notifications_medium_tv">We\'ll let you know when you\'ve got something new.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="ok_pressed">OK Pressed</string>
+    <string name="ok_button">OK</string>
+    <string name="alert_title">Alert</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="cancel_pressed">Cancel Pressed</string>
+    <string name="alert_message">Click OK to continue, or Cancel to Stop</string>
+
+    <string name="account_toolbar">Account</string>
+    <string name="update_your_photo_btn">Update Your Photo</string>
+    <string name="dark_mode_clicked">Dark mode clicked</string>
+    <string name="light_mode_clicked">Light mode clicked</string>
+    <string name="device_settings_mode_clicked">Device settings mode clicked</string>
+
+
+    <string name="login_bt">Already have an account? Log in</string>
+    <string name="recover_password_btn">Recover password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="import_audio_files">Import a audio</string>
+    <string name="record_audio_files">Record a audio</string>
+    
+    <string name="toggle_flash">Toggle Flash</string>
+    <string name="scanned_data">Scanned Data</string>
+    <string name="audio_recorder">Audio Recorder</string>
+    <string name="start_recording">Start Recording</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="play_recording">Play Recording</string>
+    <string name="stop_playing">Stop Playing</string>
+    <string name="status">Status</string>
+
+
+
+    <string name="recording_stopped">Recording Stopped</string>
+    <string name="recording_started_playing">Recording Started Playing</string>
+    <string name="recording_play_stopped">Recording Play Stopped</string>
+    <string name="recording_started">Recording started</string>
+</resources>

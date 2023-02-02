@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:padding="8dp"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Appearance"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="14dp">
+
+            <RadioButton
+                android:id="@+id/device_settings_radio_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Device Settings" />
+
+            <RadioButton
+                android:id="@+id/light_radio_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Light" />
+
+            <RadioButton
+                android:id="@+id/dark_radio_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dark" />
+        </RadioGroup>
+
+</LinearLayout>
